@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color:#3AAFA9;
+}
+
+.navbar{ 
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-right: 200px; 
+    /* background-color: #2B7A78; */
+    /* position: sticky; */
+}
+#name{
+    font-size: 40px;
+    font-weight: bolder;
+   
+
+}
+#name a{
+    color: #17252A;
+}
+
+.nav-contents{
+        font-size: 25px;
+        font-weight:bold;
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 200px;
+        /* background-color: blue; */
+       height: 100px;
+       align-items: center;      
+}
+.nav-contents a{
+    color: #17252A;
+    text-decoration: none;
+    border-radius: 40px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-contents a:hover{
+    color: #3AAFA9;
+    background-color:#17252A;
+    
+}
+ .body{
+    display:flex;
+    /* justify-content: flex-start; */
+} 
+
+#body-left{
+    width: 50%;
+    /* background-color: #3AAFA9; */
+    height: 500px;
+    margin-left: 100px;
+   margin-top: 80px;
+   /* border: 2px solid;
+   border-radius: 15px;  */
+padding-left:100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+}
+#body-right{
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    /* margin-right: 100px; */
+   /* background-image: url(); */
+   margin-top: 50px;
+   border-radius: 50%;
+   border: 5px solid #17252A ;
+
+}
+#info{
+    font-size: 50px;
+
+    color: #17252A;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* #a{
+    font-size: 20px;
+    color: #DEF2F1;
+} */
+ p{
+    text-align: left;
+ }
+
+ #icons{
+    width:200px;
+    height: 200px;
+    /* background-color: #2B7A78; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 100px;
+ }
+ .icon{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    color: #17252A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ #icons a {
+    text-decoration: none;
+    color: #17252A;
+ }
+ #icons a i{
+    font-size: 30px;
+ }
+ .icon:hover{
+    background-color: #17252A;
+    color: #3AAFA9;
+ }
+ .button{
+    width: 200px;
+    height: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    /* background-color: #17252A; */
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 60px;
+ }
+ .button a{
+    text-decoration: none;
+    color: #17252A;
+ }
+ .button a:hover{
+    color: #3AAFA9;
+ }
+ .button:hover{
+    background-color: #17252A;
+    transition: transform 0.5s;
+    transform: scale(1.1); 
+    /* color: #3AAFA9; */
+ }
+
+ /* .button:hover::before{
+   transition: transform 0.5s;
+ }
+.button:hover::after{
+      transition: transform 0.5s;
+      transform: scale(1);
+    } */
+
+ .about{
+    width:100%;
+    height: 100vh;
+    background-color:#17252A;   
+ }
+ .content-about{
+  padding-top:200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .content-about h1{
+    color:#3AAFA9;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+ }
+ #contents{
+    width: 60%;
+    /* height: 100vh; */
+    color: #3AAFA9;
+    background-color: #17252A;
+    font-size: 30px;
+    margin-top: 20px;
+ }
+ .skill{
+   width: 100%;
+   height: 100vh;
+   background-color: #3AAFA9;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: flex-start; */
+   /* align-items: center; */
+ }
+ .skill h1{
+   color:#17252A;
+   padding-top:50px ;
+   font-size: 60px;
+   padding-left: 43%;
+
+  
+ }
+ #skills-contents{
+   width: 30%;
+   height: 300px;
+   background-color:#057aa4;
+   margin-left:100px;
+   padding: 20px;   
+ }
+ #skills-contents h2{
+   text-align: center;
+ }
+ #skills-contents p{
+   text-align: justify;
+ }
