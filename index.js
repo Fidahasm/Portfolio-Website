@@ -1,4 +1,9 @@
 function SendMail(){
+    if(    document.getElementById("name").value.length>0 &&
+        document.getElementById("emial").value.length>0 &&
+        document.getElementById("subject").value.length>0 &&
+        document.getElementById("message").value.length>0 )
+{
     var params={
         name:document.getElementById("name").value,
         email:document.getElementById("emial").value,
@@ -20,5 +25,11 @@ function SendMail(){
     }
    )
    .catch((err)=>console.log(err)); 
+    
+}
+else{
+    alert("Please fill all the fields")
+}
+   
 }
 
