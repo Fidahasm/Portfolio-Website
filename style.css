@@ -421,8 +421,8 @@ input.contact-container:focus{
    color: black;
 }
 #msg-btn:hover{
-   background-color: rgb(78, 170, 78);
-   color: #17252A;
+   background-color: rgb(64, 176, 64);
+   color: #000000;
    
    transition: transform 0.5s;
    transform: scale(1.1); 
