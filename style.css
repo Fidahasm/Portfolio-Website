@@ -452,3 +452,17 @@ input.contact-container:focus{
 /* .top-btn.odd{
    background-color: #3AAFA9;
 } */
+@media screen and (max-width :1200px ) {
+   #body-right{
+      display: none;
+   }
+   #icons{
+      margin: 0;
+   }
+}
+@media screen and (max-width:1140px) {
+   .skills-contents{
+      height: auto;
+   }
+   
+}
